@@ -45,6 +45,7 @@ body{
 
 .white{
     color: white;
+    font-weight: bold;
 }
 
 .text-right{
@@ -76,10 +77,6 @@ a{
     background-color: rgb(0,97,255);
 }
 
-.button-top-right{
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
 /* Logo section */
 
 .top-header{
@@ -92,7 +89,7 @@ a{
 header{
     padding-top: 50px;
     width: 100%;
-    height: 600px;
+    height: 700px;
     text-align: left;
     background-color: rgb(180,208,231);
 }
@@ -106,8 +103,22 @@ h1{
     margin: 0 auto;
 }
 
+.button{
+    margin-left: 0;
+    padding: 10px 15px;
+}
+
+.jumbo{
+    width: 100%;
+    height: 500px;
+}
+.downarrow{
+    font-size: 3.5em;
+    margin-left: -20px;
+}
+
 /* Spacing */
 
 .margin-top{
-    margin-top:  80px;
+    margin-top:  30px;
 }
