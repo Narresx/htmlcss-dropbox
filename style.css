@@ -108,9 +108,12 @@ h1{
     padding: 10px 15px;
 }
 
+
+
 .jumbo{
-    width: 100%;
+    width: 80%;
     height: 500px;
+    margin-left: 200px;
 }
 .downarrow{
     font-size: 3.5em;
