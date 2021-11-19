@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Open Sans';
+}
+
 .clearfix::after{
     display: table;
     content: '';
@@ -41,7 +45,9 @@
 }
 
 .middle{
+    line-height: 80px;
     vertical-align: middle;
+    height: 80px;
 }
 /* Link */
 
@@ -63,6 +69,10 @@ a{
     background-color: rgb(0,97,255);
 }
 
+.button-top-right{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
 /* Logo section */
 
 .top-header{
