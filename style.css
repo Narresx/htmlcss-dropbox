@@ -1,17 +1,71 @@
 /* Generics */
 
 *{ 
-     margin: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.clearfix{
+.clearfix::after{
     display: table;
     content: '';
     clear: both;
 }
 
-div{
-    color: red;
+/* Col, w-n & Display */
+
+.col{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.w-50{
+    width: 50%;
+}
+
+/* Text-color & align */
+
+.white{
+    color: white;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.middle{
+    vertical-align: middle;
+}
+/* Link */
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 25px 25px;
+}
+
+/* Position-fix */
+
+.fixed{
+    position: fixed;
+}
+
+/* Boxes */
+
+.blue-box{
+    background-color: rgb(0,97,255);
+}
+
+/* Logo section */
+
+.top-header{
+    height: 80px;
+    padding-top: 20px;
 }
