@@ -137,10 +137,34 @@ h1{
 
 /* First - Section */
 
+.col30-minheight{
+    min-height: 1000px;
+}
 h2{
     font-size: 2.8em;
 }
 
+.button-size{
+    font-size: 0.8em;
+}
+
+.title-col{
+    font-size: 1.5em;
+}
+
+.buy-now{
+    text-decoration: underline;
+    color:  rgb(0,97,255);
+}
+
+.blue-color{
+    color:  rgb(0,97,255);
+}
+
+.price-col{
+    font-weight: bold;
+    font-size: 1em;
+}
 .cyan-radio{
     background-color:#fff;
     border: 5px solid rgb(0,97,255);    
@@ -173,6 +197,16 @@ hr{
     background-color: lightgray;
     color: lightgray;
 }
+
+.small-hr{
+    background-color: lightgray;
+    color: lightgray;
+    max-width: 20%;
+}
+
+.gray{
+    color: gray;
+}
 /* Spacing */
 
 .margin-top{
@@ -182,6 +216,11 @@ hr{
 .margin-top-good{
     margin-top: 50px;
 }
+
+.margin-top-small{
+    margin-top: 15px;
+}
+
 .margin-top-big{
     margin-top: 100px;
 }
@@ -195,6 +234,11 @@ hr{
     text-align: center;
 }
 
+.padding-button{
+    text-align: center;
+    padding: 10px 15px;
+}
+
 .padding{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -202,4 +246,9 @@ hr{
 
 .padding-left{
     padding-left: 5px;
+}
+
+.padding-left-right{
+    padding-left: 20px;
+    padding-right: 20px;
 }
