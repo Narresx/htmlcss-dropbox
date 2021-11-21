@@ -47,8 +47,12 @@ main{
 
 .w-100{
     width: 100%;
+    position: relative;
 }
 
+.minw-100{
+    width: 100%;
+}
 .w-m70{
     max-width: 70%;
     margin-left: 15%;
@@ -118,7 +122,6 @@ h1{
 }
 
 .button{
-    margin-left: 0;
     padding: 10px 15px;
 }
 
@@ -207,7 +210,16 @@ hr{
 .gray{
     color: gray;
 }
+
+/* First section bottom */
+
+
+
 /* Spacing */
+
+.text-align-right{
+    text-align: right;
+}
 
 .margin-top{
     margin-top:  30px;
@@ -237,6 +249,9 @@ hr{
 .padding-button{
     text-align: center;
     padding: 10px 15px;
+}
+.padding-bottom{
+    padding-bottom: 25px;
 }
 
 .padding{
