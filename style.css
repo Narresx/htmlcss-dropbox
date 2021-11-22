@@ -260,7 +260,23 @@ h3{
     margin-left: 0;
 }
 
+/* Third - Section (card) */
 
+.Dropbox-Paper:hover{
+    text-decoration: underline;
+}
+
+.card-img{
+    width: 75%;
+    height: 75%;
+    margin: 0 auto;
+}
+
+/* Fourth - Section*/
+
+
+
+/* Pre-footer */
 
 /* Spacing */
 
