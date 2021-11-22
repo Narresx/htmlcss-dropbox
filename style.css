@@ -139,12 +139,6 @@ h1{
     padding: 10px 15px;
 }
 
-.button-border{
-    background-color: white;
-    border-color: 2px solid black;
-    height: 50px;
-}
-
 .jumbo{
     width: 80%;
     height: 500px;
@@ -257,6 +251,14 @@ h3{
 
 #p-partner{
     font-size: 20px;
+}
+
+.button-border{
+    background-color: white;
+    border-color: 2px solid black;
+    height: fit-content;
+    width: fit-content;
+    border-style: default;
 }
 
 /* Spacing */
