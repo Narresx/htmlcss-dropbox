@@ -255,10 +255,9 @@ h3{
 
 .button-border{
     background-color: white;
-    border-color: 2px solid black;
-    height: fit-content;
-    width: fit-content;
-    border-style: default;
+    border: 2px solid black;
+    display: inline-block;
+    margin-left: 0;
 }
 
 /* Spacing */
