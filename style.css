@@ -247,6 +247,7 @@ hr{
 #partner{
     max-width: 100%;
     max-height: fit-content;
+    padding: 0;
 }
 
 h3{
@@ -312,6 +313,23 @@ div .w-50 img{
     background-color: rgb(245,245,245);
 }
 
+.bkg-color-blue{
+    background-color: rgb(180,208,231);
+}
+
+.free-trial{
+    vertical-align: middle;
+    text-align: center;
+    background-color: white;
+    margin-left: 45%;
+}
+.color-red{
+   color: rgb(97,8,43);
+}
+
+.red-text{
+    
+}
 /* Pre-footer */
 
 /* Spacing */
@@ -353,6 +371,11 @@ div .w-50 img{
     padding-bottom: 25px;
 }
 
+.padding-free-trial{
+    height: 400px;
+    vertical-align: middle;
+    line-height: 400px;
+}
 .padding{
     padding-top: 10px;
     padding-bottom: 10px;
