@@ -77,10 +77,10 @@ main{
 }
 /* Link */
 
-a{
+.top-header, a{
     text-decoration: none;
     color: black;
-    margin: 25px 25px;
+    margin-right: 25px;
 }
 
 /* Position-fix */
@@ -266,7 +266,7 @@ h3{
     text-decoration: underline;
 }
 
-.card-img{
+.card img{
     width: 75%;
     height: 75%;
     margin: 0 auto;
@@ -274,8 +274,18 @@ h3{
 
 /* Fourth - Section*/
 
+.link{
+    display: inline-block;
+    margin-left: 0;
+}
 
+.link:hover{
+    text-decoration: underline;
+}
 
+.card p{
+    margin-top: 30px;
+}
 /* Pre-footer */
 
 /* Spacing */
