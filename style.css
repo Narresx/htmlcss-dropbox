@@ -33,6 +33,10 @@ main{
     display: inline-block;
 }
 
+.w-25{
+    width: 25%;
+}
+
 .w-30{
     width: 30%;
 }
@@ -286,6 +290,16 @@ h3{
 .card p{
     margin-top: 30px;
 }
+
+div .w-50 img{
+    width: 100%;
+    padding: 15%;
+}
+
+#designit img{
+    width: 50%;
+}
+
 /* Pre-footer */
 
 /* Spacing */
