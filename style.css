@@ -230,6 +230,7 @@ hr{
 #button-right{
     font-size: small;
     font-weight: normal;
+    margin-top: 0;
 }
 
 /* Spacing */
