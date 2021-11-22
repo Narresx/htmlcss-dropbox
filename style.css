@@ -51,7 +51,7 @@ main{
 }
 
 .minw-100{
-    width: 100%;
+    min-width: 100%;
 }
 .w-m70{
     max-width: 70%;
@@ -99,7 +99,21 @@ a{
 
 .top-header{
     height: 80px;
-    padding-top: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 3px 3px lightgray;
+    z-index: 2;
+}
+
+.top-header img{
+    vertical-align: middle;
+}
+
+.blue-box:hover{
+    filter: brightness(1.8);
 }
 
 /* Header */
@@ -213,7 +227,10 @@ hr{
 
 /* First section bottom */
 
-
+#button-right{
+    font-size: small;
+    font-weight: normal;
+}
 
 /* Spacing */
 
