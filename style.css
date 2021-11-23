@@ -292,7 +292,7 @@ h3{
     margin-top: 30px;
 }
 
-div .w-50 img{
+div .w-25 .w-50 img{
     width: 100%;
     padding: 15%;
 }
@@ -309,12 +309,46 @@ div .w-50 img{
     max-width: 15%;
 }
 
+
+
 .bkg-color-gray{
     background-color: rgb(245,245,245);
 }
 
 .bkg-color-blue{
     background-color: rgb(180,208,231);
+}
+
+.bkg-color-green{
+    background-color: rgb(162,211,155);
+}
+
+.bkg-color-darkred{
+    background-color: rgb(97,8,43);
+}
+
+.bkg-color-cyan{
+    background-color: rgb(0,147,206);
+}
+
+.bkg-color-red{
+    background-color: rgb(255,28,28);
+}
+
+.bkg-color-nred{
+    background-color: rgb(213,0,31);
+}
+
+.bkg-color-nblue{
+    background-color: rgb(180,208,231);
+}
+
+.bkg-color-darkblue{
+    background-color: rgb(13,36,129);
+}
+
+.bkg-color-yellow{
+    background-color: yellow;
 }
 
 .free-trial{
@@ -333,6 +367,42 @@ div .w-50 img{
     max-width: fit-content;
     padding-left: 150px;
 }
+
+/* Client-section ( done well )*/
+
+.container-small{
+    max-width: 1000px;
+    margin: 0, auto;
+}
+
+.container{
+    max-width: 100vw;
+    margin: 0, auto;
+}
+
+.square{
+    float: left;
+}
+
+#squares{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.quarter-square{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+
+.quarter-square div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(0);
+}
 /* Pre-footer */
 
 /* Spacing */
@@ -345,6 +415,9 @@ div .w-50 img{
     margin-top:  30px;
 }
 
+.margin-bottom{
+    margin-bottom: 50px;
+}
 .margin-top-good{
     margin-top: 50px;
 }
