@@ -1,4 +1,4 @@
-/* Generics */
+a/* Generics */
 
 *{ 
     margin: 0;
@@ -382,9 +382,12 @@ div .w-25 .w-50 img{
 
 .square{
     float: left;
+    width: 32vw;
+    height: 32vw;
 }
 
 #squares{
+    position: relative;
     width: calc(100% / 3);
     height: calc(100vw / 3);
 }
@@ -392,15 +395,18 @@ div .w-25 .w-50 img{
 .quarter-square{
     position: relative;
     float: left;
+    /* Calc [(100vw/3)/2] approximately */
+    width: 16vw; 
+    height: 16vw;
 }
 
-.quarter-square div img{
-
+.quarter-square img{
+    width: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    filter: invert(0);
+    filter: invert(1);
 }
 /* Pre-footer */
 
