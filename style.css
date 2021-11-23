@@ -1,4 +1,4 @@
-a/* Generics */
+/* Generics */
 
 *{ 
     margin: 0;
@@ -259,10 +259,9 @@ h3{
 }
 
 .button-border{
+    font-weight: normal;
     background-color: white;
     border: 2px solid black;
-    display: inline-block;
-    margin-left: 0;
 }
 
 /* Third - Section (card) */
@@ -299,14 +298,15 @@ div .w-25 .w-50 img{
 
 #designit{
     width: 40%;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 25px;
+    padding-left: 45px;
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 
 .small-hr{
-    margin-left: 20px;
-    max-width: 15%;
+    margin-left: 35px;
+    width: 50px;
+    color: black;
 }
 
 
@@ -357,15 +357,12 @@ div .w-25 .w-50 img{
     background-color: white;
     margin-left: 45%;
 }
-.color-red{
-   color: rgb(97,8,43);
-}
 
 .red-text{
+    color: rgb(97,8,43);
+    display: inline-block;
     font-weight: bold;
     font-size: 2.5em;
-    max-width: fit-content;
-    padding-left: 150px;
 }
 
 /* Client-section ( done well )*/
@@ -382,22 +379,21 @@ div .w-25 .w-50 img{
 
 .square{
     float: left;
-    width: 32vw;
-    height: 32vw;
+    width: calc(100vw / 3 - 8px);
+    height: calc(100vw / 3 - 8px);
 }
 
 #squares{
     position: relative;
-    width: calc(100% / 3);
-    height: calc(100vw / 3);
+    width: 100%;
 }
 
 .quarter-square{
     position: relative;
     float: left;
     /* Calc [(100vw/3)/2] approximately */
-    width: 16vw; 
-    height: 16vw;
+    width: calc(100vw / 6 - 4px);
+    height: calc(100vw / 6 - 4px);
 }
 
 .quarter-square img{
@@ -408,6 +404,7 @@ div .w-25 .w-50 img{
     transform: translate(-50%, -50%);
     filter: invert(1);
 }
+
 /* Pre-footer */
 
 /* Spacing */
@@ -467,7 +464,7 @@ div .w-25 .w-50 img{
 }
 
 .padding-left-n{
-    padding-left: 20px;
+    padding-left: 35px;
 }
 
 .padding-left-big{
