@@ -392,11 +392,10 @@ div .w-25 .w-50 img{
 .quarter-square{
     position: relative;
     float: left;
-    width: 50%;
-    height: 50%;
 }
 
-.quarter-square div {
+.quarter-square div img{
+
     position: absolute;
     top: 50%;
     left: 50%;
